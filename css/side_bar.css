@@ -1,0 +1,26 @@
+#side_bar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	height: 100%;
+	width: 200px;
+	display: block;
+	/*border-right: 6px solid green;*/
+}
+
+.side_bar_ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.side_bar_li{
+	list-style: none;
+}
+
+.side_bar_li_a{
+	border-bottom: 1 px solid #111;
+	display: block;
+	width: 180px;
+	padding: 10px;
+	text-decoration: none;
+}
